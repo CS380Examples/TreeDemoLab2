@@ -41,7 +41,9 @@ class BinarySearchTree{
    pre-order traversal
    */
    public void preOrderTraversal(Node root){
-       do pre order here
+       if(root == null){
+			return;
+	   }
    }
 
    
